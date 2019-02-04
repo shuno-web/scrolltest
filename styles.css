@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sky,
+.mt,
+.forest,
+.sea {
+  height: 600px;
+}
+
+.sky {
+  background: url(img/sky.jpg);
+  background-size: cover;
+}
+.mt {
+  background: url(img/mtfuji.jpg);
+  background-size: cover;
+}
+.forest {
+  background: url(img/forest.jpg);
+  background-size: cover;
+}
+.sea {
+  background: url(img/sea.jpeg);
+  background-size: cover;
+}
+
+.desc1,
+.desc2,
+.desc3,
+.desc4 {
+  background: #f0f0f0;
+  padding: 60px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 64px;
+  line-height: 600px;
+  color: #fff;
+}
+
+p {
+  font-size:24px;
+  line-height: 1.5em;
+  color: #969696
+}
+
+.scroll {
+  opacity: 0.1;
+  transform: translate(0, 100px);
+  transition: all 500ms;
+}
+
+.scroll.in {
+  opacity: 1;
+  transform: translate(0,0);
+}
